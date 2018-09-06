@@ -8,7 +8,7 @@
 
 #Something similar to this
 
-'''
+'''html
 <!DOCTYPE <!DOCTYPE html>
 <html>
 <head>
