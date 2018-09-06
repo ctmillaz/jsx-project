@@ -1,4 +1,4 @@
-# react
+# Live Server
 
 #### Create public folder
 
