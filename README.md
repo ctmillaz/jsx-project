@@ -1,12 +1,12 @@
 # react
 
-### Create public folder
+#### Create public folder
 
-### Create index.html 
+#### Create index.html 
 
-### Fill in all standard html information
+#### Fill in all standard html information
 
-### Something similar to this
+#### Something similar to this:
 
 ```html
 <!DOCTYPE <!DOCTYPE html>
@@ -21,11 +21,11 @@
 </html>
 ```
 
-### Use yarn to install a live server to see things in real time
+#### Use yarn to install a live server to see things in real time
 ```
 yarn global add live-server
 ```
-### Verify install
+#### Verify install
 ```
 live-server -v
 ```
