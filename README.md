@@ -1,4 +1,4 @@
-# Live Server
+# Automated Server-JS
 
 #### Create public folder
 
@@ -8,8 +8,8 @@
 
 #### Something similar to this:
 
-```html
-<!DOCTYPE <!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -88,7 +88,7 @@ npm init
 }
 ```
 
-###This generates a file in our project.  It's a package.json file.  It outlines all the dependecies.  It is similar to a pom.xml file if you are familiar with java.
+### This generates a file in our project.  It's a package.json file.  It outlines all the dependecies.  It is similar to a pom.xml file if you are familiar with java.
 ### No we need to add the dependecies.  You can leave off the version if you want latest.  You can also run them individually.
 ```
 npm install babel-preset-react
@@ -99,7 +99,7 @@ npm install babel-preset-env
 ### Create a scripts directory under public
 ### Create a file called app.js under scripts and src.
 
-###Create a path to our code.  Then path to output of code. Put in presets we want to use. Add watch flag so that app.js file in scripts folder changes each time.
+### Create a path to our code.  Then path to output of code. Put in presets we want to use. Add watch flag so that app.js file in scripts folder changes each time.
 ```
 babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 ```
