@@ -45,7 +45,7 @@ live-server -v
     This is my HTML!
     <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-    <script>src = "/scripts/app.js"</script>
+    <script src = "/scripts/app.js"></script>
 </body>
 
 </html>
@@ -104,10 +104,14 @@ npm install babel-preset-env
 babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 ```
 
-## Change directory to your project file and run live-server
+### Change directory to your project file and run live-server
 ```
 cd /workspace/<project>
 ```
 ```
 live-server public
 ```
+### Node Modules directory is the equivalent of .mvn directory where all your dependencies are stored
+### So just as you would do mvn install, you can also do npm install and that directory will come back
+
+
