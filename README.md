@@ -115,3 +115,4 @@ live-server public
 ### So just as you would do mvn install, you can also do npm install and that directory will come back
 
 
+# Automated-Server-JS
